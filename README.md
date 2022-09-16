@@ -6,14 +6,22 @@
 我有个业务需要一个firstWhere找出某个符合条件的元素, 元素可为空, stream我没有找到这个API,所以当我看到java的@FunctionalInterface这个语法的时候就决定写一个.
 
 
-我是一个iOS开发,我习惯了swift提供给我的那些API语法,
+我是一个iOS开发,我习惯了swift提供给我的那些API语法
+
 比如firstWhere条件判断筛选元素
-prefix筛选前几个,
-suffix帅选后几个,
+
+prefix筛选前几个
+
+suffix帅选后几个
+
 contain条件判断是否包含某个元素
+
 Interger数组separator join成分隔符字符串
+
 map
+
 filter
+
 compactMap等等
 
 ### 为什么只有一个文件?

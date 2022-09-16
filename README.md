@@ -8,21 +8,15 @@
 
 我是一个iOS开发,我习惯了swift提供给我的那些API语法
 
-比如firstWhere条件判断筛选元素
-
-prefix筛选前几个
-
-suffix帅选后几个
-
-contain条件判断是否包含某个元素
-
-Interger数组separator join成分隔符字符串
-
-map
-
-filter
-
-compactMap等等
+比如
+* firstWhere 条件判断筛选元素
+* prefix 筛选前几个
+* suffix 帅选后几个
+* contain 条件判断是否包含某个元素
+* Interger 数组separator join 变成分隔符字符串
+* map
+* filter
+* compactMap等等
 
 ### 为什么只有一个文件?
 没有demo,是因为我希望大家有空可以看看源码,源码真的简单的要死.
@@ -45,3 +39,6 @@ List<Integer> collect = SequenceOperator.build(list)
                         .map((e) -> e + 1)
                         .collect();
 ```
+
+### PS
+stream()的api绝大部分情况下都是十分强大的,所以如果没有我这种特殊需求的话,还是用stream()的API更安全点,java官方代码的安全性绝对远高于我这种简单写法一万倍.
